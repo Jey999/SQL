@@ -116,12 +116,6 @@ The following aggregate fuctions can be used to calculate totals usually in conj
 | MAX                  | MAX(UnitPrice) for the largest value in a column for all rows selected                   |
 | COUNT                | COUNT(*) for the number of NOT Null rows selected. If* is used then all rows are counted |
 
-| Sum   :  | SUM(OrderTotal) for the grand total of a column for all rows selected                    |
-|----------|------------------------------------------------------------------------------------------|
-| AVG   :  | AVG(UnitPrice) for the average of a column for all rows selected                         |
-| Min   :  | MIN(UnitPrice) for the smallest value in a column for all rows selected                  |
-| MAX   :  | MAX(UnitPrice) for the largest value in a column for all rows selected                   |
-| COUNT :  | COUNT(*) for the number of NOT Null rows selected. If* is used then all rows are counted |
 
 Example :
 
