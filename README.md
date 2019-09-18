@@ -52,14 +52,20 @@ Create a Table that includes a UserID, User_name and contact info for Fullwell c
 
 Query:
 
-
 use my_db
-CREATE TABLE Userlib_table               
+
+CREATE TABLE Userlib_table          
+
 (
+
 user_ID VARCHAR(50) PRIMARY KEY Not Null,    --Assign field names with it's corresponding data type
+
 User_name VARCHAR(6),
+
 Email VARCHAR(50),
+
 Telephone_no char (11)
+
 );
 
 The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
@@ -67,7 +73,9 @@ The ALTER TABLE statement is used to add, delete, or modify columns in an existi
 Example :
 
 use my_db
+
 ALTER TABLE Userlib_Table
+
 ALTER COLUMN User_name VARCHAR (50)      --- In this case the field user_name was edited so its character/length could be increased from 6 to 50.
 
 
@@ -75,10 +83,13 @@ ALTER COLUMN User_name VARCHAR (50)      --- In this case the field user_name wa
 
 The INSERT INTO statement is used to insert new records in a table.
 
-If you are adding values for all the columns of the table, you do not need to specify the column names in the SQL query. However, make sure the order of the values is in the same order as the columns in the table.
+If you are adding values for all the columns of the table, you do not need to specify the column names in the SQL query.
+However, make sure the order of the values is in the same order as the columns in the table.
 
 Example:
 
 use my_db
+
 INSERT INTO Userlib_table
+
 Values ('1','JK Rowling', 'jk@gmail.com', '07508264512');
