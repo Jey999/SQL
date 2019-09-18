@@ -8,7 +8,7 @@
 | INSERT | ALTER  |
 | UPDATE | DROP   |
 
-##DML EXAMPLES
+## DML EXAMPLES
 SELECT - Is a statement that returns a result set of records from one or more tables
 
 COUNT() - is an aggregate function that returns the number of items found in a set.  
