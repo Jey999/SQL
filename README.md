@@ -115,3 +115,16 @@ The following aggregate fuctions can be used to calculate totals usually in conj
 | Min   :  | MIN(UnitPrice) for the smallest value in a column for all rows selected                  |
 | MAX   :  | MAX(UnitPrice) for the largest value in a column for all rows selected                   |
 | COUNT :  | COUNT(*) for the number of NOT Null rows selected. If* is used then all rows are counted |
+
+
+SELECT SupplierID,
+
+SUM (UnitsOnOrder) AS 'Total on Order',
+
+AVG(UnitsOnOrder) AS 'AVG on Order'
+
+Max (UnitsOnOrder) AS 'Max on Order'
+
+FROM products
+
+GROUP BY SupplierID
