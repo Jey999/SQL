@@ -52,6 +52,10 @@ Create a Table that includes a UserID, User_name and contact info for Fullwell c
 
 Query:
 
+|   Example :    |  Create a Table that includes a UserID, User_name and contact info for Fullwell cross library                                                                                                                                                 |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   Query   :    | use my_db   CREATE TABLE Userlib_table             (   user_ID VARCHAR(50)   PRIMARY KEY Not Null,    --Assign field names with it's corresponding data type     User_name VARCHAR(6),     Email VARCHAR(50),     Telephone_no char (11)   ); |
+
 use my_db
 
 CREATE TABLE Userlib_table          
@@ -87,6 +91,8 @@ ALTER COLUMN User_name VARCHAR (50)      --- In this case the field user_name wa
 
 
 #### *DML*
+
+The SQL commands that deals with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements.
 
 The INSERT INTO statement is used to insert new records in a table.
 
