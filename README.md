@@ -52,9 +52,6 @@ Create a Table that includes a UserID, User_name and contact info for Fullwell c
 
 Query:
 
-|   Example :    |  Create a Table that includes a UserID, User_name and contact info for Fullwell cross library                                                                                                                                                 |
-|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Query   :    | use my_db   CREATE TABLE Userlib_table             (   user_ID VARCHAR(50)   PRIMARY KEY Not Null,    --Assign field names with it's corresponding data type     User_name VARCHAR(6),     Email VARCHAR(50),     Telephone_no char (11)   ); |
 
 use my_db
 
