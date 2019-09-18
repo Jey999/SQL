@@ -58,11 +58,16 @@ CREATE TABLE Userlib_table
 
 (
 
-user_ID VARCHAR(50) PRIMARY KEY Not Null,    --Assign field names with it's corresponding data type
+user_ID VARCHAR(50)
+
+PRIMARY KEY Not Null,    --Assign field names with it's corresponding data type
+
 
 User_name VARCHAR(6),
 
+
 Email VARCHAR(50),
+
 
 Telephone_no char (11)
 
@@ -74,7 +79,9 @@ Example :
 
 use my_db
 
+
 ALTER TABLE Userlib_Table
+
 
 ALTER COLUMN User_name VARCHAR (50)      --- In this case the field user_name was edited so its character/length could be increased from 6 to 50.
 
@@ -90,6 +97,8 @@ Example:
 
 use my_db
 
+
 INSERT INTO Userlib_table
+
 
 Values ('1','JK Rowling', 'jk@gmail.com', '07508264512');
